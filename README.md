@@ -1,3 +1,3 @@
-# SQL-Practice-Questions
+# MYSQL-Practice-Questions
 
 
