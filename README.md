@@ -2,6 +2,8 @@
   * Important things related to queries.
      * SQL queries are not case-sensitive so you can write a query in upper or lower-case.
      * Depending upon the environment you are using you will need to end the query woth semi colon.
+     * Creating a new column from the combination of existing columns in the table is only for temporary duration.
+     * While using math operation always remember to follow the PEMDAS (Parenthesis,Exponent,Multiplication,Division,Addition,Subtraction) for the order of arithmetic operations.
   
 
 # SQL Basic Commands
@@ -9,7 +11,7 @@
       * SELECT * FROM TABLE.
   * To select particular columns from the tables,mention their names.
       * SELECT COL1,COL2 FROM TABLE.
-  * To filter the dataset, we can use **WHERE** clause.
+  * To filter the dataset, we can use **WHERE** clause with operators like (>,<,>=,<=,=,!=) for numeric data and for non-numeric data operators like (LIKE,NOT,IN,AND,BETWEEN,OR).
       * SELECT COL1,COL2 FROM TABLE WHERE COL1>10;
   * To view only few rows you can use **LIMIT** by specifying the number of rows you want to display.
       * SELECT * FROM TABLE LIMIT 10;
@@ -18,3 +20,9 @@
       * SELECT * FROM TABLE ORDER BY COL1 DESC;
    * To specify more than column in order by to avoid same items values first column values.
       * SELECT * FROM TABLE ORDER BY COL1 ,COL2 DESC;
+
+
+# JOINS In SQL
+
+
+ 
