@@ -9,6 +9,8 @@
       * SELECT * FROM TABLE.
   * To select particular columns from the tables,mention their names.
       * SELECT COL1,COL2 FROM TABLE.
+  * To filter the dataset, we can use **WHERE** clause.
+      * SELECT COL1,COL2 FROM TABLE WHERE COL1>10;
   * To view only few rows you can use **LIMIT** by specifying the number of rows you want to display.
       * SELECT * FROM TABLE LIMIT 10;
   * To sort your results using the column name you can use **ORDER BY**,by default the order will be shown in ascending order. if you want the order in descending order you can specify **DESC**.
