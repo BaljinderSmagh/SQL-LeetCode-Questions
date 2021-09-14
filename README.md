@@ -1,4 +1,4 @@
-# MYSQL-Practice-Questions
+# MYSQL 
   * Important things related to queries.
      * SQL queries are not case-sensitive so you can write a query in upper or lower-case.
      * Depending upon the environment you are using you will need to end the query woth semi colon.
