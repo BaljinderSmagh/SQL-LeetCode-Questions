@@ -23,6 +23,10 @@
 
 
 # JOINS In SQL
+   * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
+   * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
+   * Right Join or Right Outer Join: To pull those rows present in both tables based on matching condition and all the rows from right table.
+   * Full Outer Join or Outer Join: This will return the inner join results,as well as any unmatched rows from either of the two tables being joined.
 
 
  
