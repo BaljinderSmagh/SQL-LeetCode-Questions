@@ -5,6 +5,7 @@
      * Creating a new column from the combination of existing columns in the table is only for temporary duration.
      * While using math operation always remember to follow the PEMDAS (Parenthesis,Exponent,Multiplication,Division,Addition,Subtraction) for the order of arithmetic operations.
      * In WHERE clause you can't use the alias name created in the select query but you can those alias name with ORDER BY,GROUP BY.
+     * Null values are different than zero or a space.It imporatant to know why there are Null values.You can check null values by using IS NULL or IS NOT NULL.
   
 
 # SQL Basic Commands
@@ -30,7 +31,7 @@
    * Full Outer Join or Outer Join: This will return the inner join results,as well as any unmatched rows from either of the two tables being joined.
 
 # AGGREGATIONS  in SQL
-   * Count
+   * Count: Can be used count values for both numerical and non-numerical.
    * Sum
    * Min
    * Max
