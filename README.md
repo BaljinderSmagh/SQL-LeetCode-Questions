@@ -22,8 +22,8 @@
       * SELECT * FROM TABLE ORDER BY COL1 DESC;
    * To specify more than column in order by to avoid same items values first column values.
       * SELECT * FROM TABLE ORDER BY COL1 ,COL2 DESC;
-
-
+   * Use of **GROUP BY**, when any column in SELECT statment that is not within an aggregator must be in the group by clause.it always goes between where and order by clause if they are present.Group by clause is evaluated before LIMIT clause.
+      *  SELECT COL2,COUNT(COL1) FROM TABLE GROUP BY COL2
 # JOINS In SQL
    * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
    * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
