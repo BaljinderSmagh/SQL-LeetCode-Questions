@@ -36,5 +36,13 @@
    * Min
    * Max
    * AVG
-   
+# ORDER of Execution In SQL Query
+   * FROM AND JOINS
+   * WHERE
+   * GROUP BY 
+   * HAVING
+   * SELECT
+   * DISTINCT
+   * ORDER BY
+   * LIMIT / OFFSET
  
