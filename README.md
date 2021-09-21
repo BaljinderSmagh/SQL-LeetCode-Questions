@@ -29,6 +29,16 @@
       * This above query will provide unique rows across all columns provided in the select statement.
    * HAVING Clause helps to filter the aggregated columns.
       * SELECT COL1,SUM(COL2) FROM TABLE HAVING SUM(COL1)>10; 
+   * DATE_TRUNC Function.
+      * DATE_TRUNC('second',date), will provide the date along with time upto seconds.
+      * DATE_TRUNC('day',date),will provided only date truncating the time part.
+      * DATE_TRUNC('month',date),will provided only date truncating the time part.
+      * DATE_TRUNC('year',date),will provided only date truncating the time part.
+   * DATE_PART Function to pull the part of the date you are interested:-
+      * DATA_PART('second',date),will provide seconds value in date.
+      * DATA_PART('day',date), will provide only number of day present in the date.
+      * DATA_PART('month',date),will provide only number of month present in the date.
+      * DATA_PART('year',date),will provide only number of year present in the date.
 # JOINS In SQL
    * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
    * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
