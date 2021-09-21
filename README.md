@@ -24,6 +24,9 @@
       * SELECT * FROM TABLE ORDER BY COL1 ,COL2 DESC;
    * Use of **GROUP BY**, when any column in SELECT statment that is not within an aggregator must be in the group by clause.it always goes between where and order by clause if they are present.Group by clause is evaluated before LIMIT clause.
       *  SELECT COL2,COUNT(COL1) FROM TABLE GROUP BY COL2
+   * DISTINCT Clause is always used in SELECT statements.it is used to provide the unqiue rows for all columns written in the select statement.So it is used just after SELECT clause,so it is used only once.
+      * SELECT DISTINCT COL1,COL2,COL3 FROM TABLE.
+      * This above query will provide unique rows across all columns provided in the select statement
 # JOINS In SQL
    * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
    * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
