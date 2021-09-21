@@ -26,7 +26,9 @@
       *  SELECT COL2,COUNT(COL1) FROM TABLE GROUP BY COL2
    * DISTINCT Clause is always used in SELECT statements.it is used to provide the unqiue rows for all columns written in the select statement.So it is used just after SELECT clause,so it is used only once.
       * SELECT DISTINCT COL1,COL2,COL3 FROM TABLE.
-      * This above query will provide unique rows across all columns provided in the select statement
+      * This above query will provide unique rows across all columns provided in the select statement.
+   * HAVING Clause helps to filter the aggregated columns.
+      * SELECT COL1,SUM(COL2) FROM TABLE HAVING SUM(COL1)>10; 
 # JOINS In SQL
    * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
    * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
