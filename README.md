@@ -39,6 +39,7 @@
       * DATA_PART('day',date), will provide only number of day present in the date.
       * DATA_PART('month',date),will provide only number of month present in the date.
       * DATA_PART('year',date),will provide only number of year present in the date.
+      * DATA_PART('dow',date),will provide only number of  day in the week present in the date.
 # JOINS In SQL
    * Inner Join: It creates new table(not physical) by Pulling the rows that have matching values in two or more tables.
    * Left Join or Left Outer Join: To pull those rows present in both tables based on matching condition and all the rows from left table.
