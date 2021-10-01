@@ -6,6 +6,7 @@
      * While using math operation always remember to follow the PEMDAS (Parenthesis,Exponent,Multiplication,Division,Addition,Subtraction) for the order of arithmetic operations.
      * In WHERE clause you can't use the alias name created in the select query but you can those alias name with ORDER BY,GROUP BY.
      * Null values are different than zero or a space.It imporatant to know why there are Null values.You can check null values by using IS NULL or IS NOT NULL.
+     * While using subquery use alias name after enclosing the query in parenthesis.
   
 
 # SQL Basic Commands
