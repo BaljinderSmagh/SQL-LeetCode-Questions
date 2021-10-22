@@ -1,7 +1,7 @@
 # MYSQL 
   * Important things related to queries.
      * SQL queries are not case-sensitive so you can write a query in upper or lower-case.
-     * Depending upon the environment you are using you will need to end the query woth semi colon.
+     * Depending upon the environment you are using you will need to end the query with semi colon.
      * Creating a new column from the combination of existing columns in the table is only for temporary duration.
      * While using math operation always remember to follow the PEMDAS (Parenthesis,Exponent,Multiplication,Division,Addition,Subtraction) for the order of arithmetic operations.
      * In WHERE clause you can't use the alias name created in the select query but you can those alias name with ORDER BY,GROUP BY.
