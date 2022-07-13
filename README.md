@@ -41,6 +41,14 @@
       * DATA_PART('month',date),will provide only number of month present in the date.
       * DATA_PART('year',date),will provide only number of year present in the date.
       * DATA_PART('dow',date),will provide only number of  day in the week present in the date.
+      
+   * DATE Functions:
+     * Year(): Returns the Year for a given date
+     * Quarter(): Returns the quarter for a given date
+     * Month():Returns the month for a given date
+     * Week(): Return the week for a given date
+     * Date(): Return the date for a given datetime
+     * Now(): Calculate the time relative to now
    * CASE STATEMENT is used in select Clause. It has the following components WHEN,THEN,END, AND ELSE(OPTIONAL). You can include as many when statemenst you want to include.
       * CASE WHEN COL1>100 THEN 'HIGH'
         ELSE 'LOW' 
