@@ -68,3 +68,8 @@
    * ORDER BY
    * LIMIT / OFFSET
  
+# To Use mysql on your laptop
+
+  * Download Community Server: https://dev.mysql.com/downloads/mysql/
+  * Install MySQL Workbench: https://dev.mysql.com/downloads/workbench/
+  * Connect Workbench to server
