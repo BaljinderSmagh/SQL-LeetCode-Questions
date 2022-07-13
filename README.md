@@ -71,5 +71,6 @@
 # To Use mysql on your laptop
 
   * Download Community Server: https://dev.mysql.com/downloads/mysql/
-  * Install MySQL Workbench: https://dev.mysql.com/downloads/workbench/
-  * Connect Workbench to server
+  * Download MySQL Workbench: https://dev.mysql.com/downloads/workbench/
+  * Open MySQL Workbench
+  * Create the Connection if its not already there
